@@ -9,6 +9,6 @@
   ],
   "dependencies": {
     "angular": ">=1.2.0-rc.2",
-    "windows-1251": ">=0.1.2"
+    "windows-1251": "sosloow/windows-1251"
   }
 }

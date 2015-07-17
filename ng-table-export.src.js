@@ -39,8 +39,7 @@ angular.module('ngTableExport', [])
                     });
                 },
                 link: function() {
-                    var encodedData = encodeURIComponent(windows1251.encode(data));
-                    return 'data:text/csv;charset=windows-1251,' + encodedData;
+                    return 'data:text/csv;charset=windows-1251,' + windows1251.encodeURL(data);
                 }
             };
             $parse(attrs.exportCsv).assign(scope.$parent, csv);
