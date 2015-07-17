@@ -1,13 +1,6 @@
 Export to CSV format for table
 ==============================
 
+**Achtung:** this fork exports table in **windows-1251** encoding, so csv can be opened with Russian Microsoft Excel.
+
 Code licensed under New BSD License.
-
-## Installing via Bower
-```
-bower install ng-table-export
-```
-
-## Example
-
-* [ngTable export to CSV](http://bazalt-cms.com/ng-table/example/15)
